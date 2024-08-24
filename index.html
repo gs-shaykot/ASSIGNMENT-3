@@ -90,7 +90,7 @@
 
                 <!-- HERO SECTION -->
                 <div class="banner_wrapper">
-                    <div class="hero block min-h-screen">
+                    <div class="hero block">
                         <div class="banner_img flex justify-center items-center">
                             <img src="img/banner.png" alt="">
                         </div>
@@ -121,14 +121,18 @@
     </div>
 
     <div class="w-full bg-[#f4f4f4]">
-        <div class="w-11/12 md:w-auto md:container mx-auto ">
-            <div class="about py-10 lg:py-20 lg:flex lg:gap-6 lg:items-start lg:p-7">
+        <div class="w-11/12 md:w-auto md:container mx-auto  lg:px-7 ">
+
+            <!-- ABOUT SECTION -->
+
+            <div class="about py-10 lg:py-20 lg:flex lg:gap-6 lg:items-start">
                 <div class="content flex flex-col items-center lg:items-start mx-auto lg:flex-1">
-                         
-                    <button class="relative bg-white font-semibold mb-7 px-5 py-3 rounded-[50px] text-xl w-40 lg:before:absolute lg:before:content-[''] lg:before:bg-[url('/img/arrow.png')] lg:before:bg-no-repeat lg:before:bg-center lg:before:w-[150px] lg:before:h-[50px] lg:before:-top-[50px] lg:before:right-[-30px] lg:before:transform lg:before:-translate-x-1/2">
+
+                    <button
+                        class="relative bg-white font-semibold mb-7 px-5 py-3 rounded-[50px] text-xl w-40 lg:before:absolute lg:before:content-[''] lg:before:bg-[url('/img/arrow.png')] lg:before:bg-no-repeat lg:before:bg-center lg:before:w-[150px] lg:before:h-[50px] lg:before:-top-[50px] lg:before:right-[-30px] lg:before:transform lg:before:-translate-x-1/2">
                         <i class="mr-2 fa-solid fa-arrow-right"></i>About Us
                     </button>
-                    
+
                     <div class="tittles mb-5 lg:mb-7">
                         <h1 class="font-extrabold mb-3 mx-auto text-2xl lg:text-4xl text-center lg:text-start">We design
                             thoughtful,<br> liveable spaces</h1>
@@ -159,15 +163,115 @@
                     style="background-image: url(img/Rectangle.png)">
                 </div>
             </div>
+
+            <!-- STATUS -->
+
+            <div class="status">
+                <div class="flex flex-col lg:flex-row mb-10 shadow stats w-full">
+
+                    <div class="flex flex-col items-center justify-center py-10 stat text-center mb-5 md:mb-0">
+                        <div class="stat-figure text-secondary">
+                            <img src="img/icon1.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="stat-value my-2">235+</div>
+                            <div class="stat-desc text-base">Happy Client Review</div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat flex flex-col items-center justify-center text-center mb-5 md:mb-0">
+                        <div class="stat-figure text-secondary">
+                            <img src="img/icon2.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="stat-value my-2">50+</div>
+                            <div class="stat-desc text-base">Work Departments</div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat flex flex-col items-center justify-center text-center mb-5 md:mb-0">
+                        <div class="stat-figure text-secondary">
+                            <img src="img/icon3.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="stat-value my-2">30k+</div>
+                            <div class="stat-desc text-base">Our Happy Client</div>
+                        </div>
+                    </div>
+
+
+                    <div class="stat flex flex-col items-center justify-center text-center mb-10 md:mb-0">
+                        <div class="stat-figure text-secondary">
+                            <img src="img/icon4.png" alt="">
+                        </div>
+                        <div class="">
+                            <div class="stat-value my-2">307+</div>
+                            <div class="stat-desc text-base">Staff Members</div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- WORK PROCESS -->
+
+            <div>
+
+                <div class="tittle flex flex-col items-center justify-center">
+                    <button class="bg-white font-semibold mb-4 px-2 py-3 relative rounded-[50px] text-xl w-52">
+                        <i class="mr-2 fa-solid fa-arrow-right"></i>How we works
+                    </button>
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Works Process</h2>
+                    <p class="w-auto lg:w-6/12 text-center mb-6">The barn house captivates with its blend of rustic
+                        charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 pb-16">
+                    <div class="card1 bg-[#e7c1d3] p-6 rounded-xl">
+                        <div class="mb-2">
+                            <img src="img/concept.png" alt="">
+                        </div>
+                        <div class="work_content">
+                            <h2 class="mb-2 text-2xl font-bold">Concept</h2>
+                            <p class="lg:w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="card2 bg-[#efda6e] p-6 rounded-xl">
+                        <div class="mb-2">
+                            <img src="img/flow-chart.png" alt="">
+                        </div>
+                        <div class="work_content">
+                            <h2 class="mb-2 text-2xl font-bold">Design Process</h2>
+                            <p class="lg:w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="card3 bg-[#a4dac3] p-6 rounded-xl">
+                        <div class="mb-2">
+                            <img src="img/vision.png" alt="">
+                        </div>
+                        <div class="work_content">
+                            <h2 class="mb-2 text-2xl font-bold">Supervision</h2>
+                            <p class="lg:w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                    <div class="card4 bg-[#77aaea] p-6 rounded-xl">
+                        <div class="mb-2">
+                            <img src="img/budget-planning.png" alt="">
+                        </div>
+                        <div class="work_content">
+                            <h2 class="mb-2 text-2xl font-bold">Budget Planning</h2>
+                            <p class="lg:w-10/12">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
-
-    <div class="w-full bg-[#f4f4f4]">
-        <div class="w-11/12 md:w-auto md:container mx-auto "> 
-
-        </div>
-    </div>
-
 
 
 </body>
