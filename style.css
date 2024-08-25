@@ -1,0 +1,42 @@
+.about_img{
+    background-image: url(img/Rectangle.png);
+}
+.portfolio_wrapper{
+    grid-template-rows: repeat(2,1fr);
+}
+.portfolio1{
+    grid-area: 1/1/2/9;
+}
+.portfolio2{
+    grid-area: 1/9/2/13;
+}
+.portfolio3{
+    grid-area: 2/1/3/4 ;
+}
+.portfolio4{
+    grid-area: 2/4/3/10 ;
+}
+.portfolio5{
+    grid-area: 2/10/3/13 ;
+}
+@media screen and (max-width:640px) {
+    .portfolio_wrapper{
+        grid-template-rows: repeat(1,1fr);
+    }
+    .portfolio1{
+        grid-area: unset;
+    }
+    .portfolio2{
+        grid-area: unset;
+    }
+    .portfolio3{
+        grid-area: unset ;
+    }
+    .portfolio4{
+        grid-area:4/1/5/1;
+    }
+    .portfolio5{
+        grid-area: unset;
+    }
+    /* grid-area:4/1/5/1 */
+}
